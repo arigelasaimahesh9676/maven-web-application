@@ -4,16 +4,17 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>DevOps Training - Home Page</title>
+<title>Sree Vidyanikethan Educational Institutions - Home Page</title>
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
+        background-color: #f0f0f0;
         margin: 0;
         padding: 0;
+        color: #333;
     }
     header, footer {
-        background-color: #333;
+        background-color: #004080;
         color: white;
         text-align: center;
         padding: 1em 0;
@@ -22,7 +23,7 @@
         margin: 0;
     }
     nav {
-        background: #444;
+        background: #0066cc;
         color: white;
         padding: 10px 0;
         text-align: center;
@@ -40,7 +41,7 @@
         margin: auto;
         overflow: hidden;
     }
-    .main, .services, .contact {
+    .main, .about, .departments, .contact {
         background: white;
         padding: 20px;
         margin-top: 20px;
@@ -51,14 +52,14 @@
         margin: 20px 0;
     }
     .contact-info a {
-        color: #333;
+        color: #0066cc;
         text-decoration: none;
     }
     .contact-info a:hover {
         text-decoration: underline;
     }
     h2 {
-        color: #333;
+        color: #004080;
     }
     hr {
         border: 1px solid #ccc;
@@ -67,36 +68,54 @@
         width: 100%;
         padding: 10px;
         margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
     .contact-form input[type="submit"] {
-        background: #333;
+        background: #004080;
         color: white;
         border: none;
         cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 4px;
     }
     .contact-form input[type="submit"]:hover {
-        background: #555;
+        background: #003366;
+    }
+    .section-header {
+        text-align: center;
+        color: #004080;
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul li {
+        background: #e6f2ff;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 4px;
     }
 </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to DevOps Training</h1>
+    <h1>Welcome to Sree Vidyanikethan Educational Institutions</h1>
 </header>
 
 <nav>
     <a href="#home">Home</a>
-    <a href="#services">Services</a>
     <a href="#about">About Us</a>
+    <a href="#departments">Departments</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <div class="container">
     <div class="main" id="home">
-        <h2>DevOps Training Center</h2>
-        <p>Ph No: +91 888999955555544455555999, Tumkur, Bangalore</p>
-        <p>DevOps Training - A Premier Training Center for DevOps with AWS, Python & AWS Solution Architect in India, Teaching Real-Time Scenarios</p>
+        <h2 class="section-header">Welcome to Sree Vidyanikethan Educational Institutions</h2>
+        <p>Our institutions offer a wide range of programs and a vibrant campus life. Join us to experience a transformative education.</p>
         <hr>
         <h3>Server-Side IP Address</h3>
         <p>
@@ -119,25 +138,32 @@
         <hr>
     </div>
 
-    <div class="services" id="services">
-        <h2>Our Services</h2>
+    <div class="about" id="about">
+        <h2 class="section-header">About Us</h2>
+        <p>Sree Vidyanikethan Educational Institutions was established with the mission to provide quality education and foster innovative research. We are located in Tirupati, Andhra Pradesh, and offer a serene campus environment.</p>
+        <p>Our faculty members are highly qualified and bring a wealth of experience to the classroom. We aim to provide a holistic education that prepares students for success in their chosen fields.</p>
+    </div>
+
+    <div class="departments" id="departments">
+        <h2 class="section-header">Departments</h2>
         <ul>
-            <li>DevOps Training</li>
-            <li>AWS Training</li>
-            <li>Python Training</li>
-            <li>AWS Solution Architect Training</li>
-            <li>Real-Time Scenario Training</li>
+            <li>Computer Science</li>
+            <li>Electrical Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Business Administration</li>
+            <li>Humanities and Social Sciences</li>
         </ul>
     </div>
 
     <div class="contact" id="contact">
-        <h2>Contact Us</h2>
+        <h2 class="section-header">Contact Us</h2>
         <div class="contact-info">
             <p>
-                <strong>DevOps Training</strong> <br>
-                Beside Meghana Foods, Tumkur <br>
-                +91-99999999, +91-8888888888 <br>
-                <a href="mailto:Devops_train123@gmail.com">Devops_train123@gmail.com</a>
+                <strong>Sree Vidyanikethan Educational Institutions</strong> <br>
+                Vidyanikethan Sree Sainath Nagar, Tirupati, Andhra Pradesh 517102 <br>
+                Phone: +91-8889999555 <br>
+                Email: <a href="mailto:info@vidyanikethan.edu">info@vidyanikethan.edu</a>
             </p>
         </div>
         <form class="contact-form">
@@ -150,8 +176,8 @@
 </div>
 
 <footer>
-    <p>DevOps Training - Training and Development Center</p>
-    <p><small>&copy; 2022 by <a href="http://Devops_train.com/" style="color: white;">DevOps Training Tumkur</a></small></p>
+    <p>Sree Vidyanikethan Educational Institutions - Excellence in Education</p>
+    <p><small>&copy; 2024 by <a href="http://vidyanikethan.edu" style="color: white;">Sree Vidyanikethan Educational Institutions</a></small></p>
 </footer>
 
 </body>
