@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.net.*" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +40,7 @@
         margin: auto;
         overflow: hidden;
     }
-    .main, .about, .departments, .contact {
+    .main, .about, .departments, .news, .gallery, .contact {
         background: white;
         padding: 20px;
         margin-top: 20px;
@@ -97,6 +96,12 @@
         padding: 10px;
         border-radius: 4px;
     }
+    .gallery img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-radius: 4px;
+    }
 </style>
 </head>
 <body>
@@ -109,6 +114,8 @@
     <a href="#home">Home</a>
     <a href="#about">About Us</a>
     <a href="#departments">Departments</a>
+    <a href="#news">News & Events</a>
+    <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -116,26 +123,6 @@
     <div class="main" id="home">
         <h2 class="section-header">Welcome to Sree Vidyanikethan Educational Institutions</h2>
         <p>Our institutions offer a wide range of programs and a vibrant campus life. Join us to experience a transformative education.</p>
-        <hr>
-        <h3>Server-Side IP Address</h3>
-        <p>
-            <% 
-            String ip = "";
-            InetAddress inetAddress = InetAddress.getLocalHost();
-            ip = inetAddress.getHostAddress();
-            out.println("Server Host Name: " + inetAddress.getHostName()); 
-            %>
-            <br>
-            <% out.println("Server IP Address: " + ip); %>
-        </p>
-        <hr>
-        <h3>Client-Side IP Address</h3>
-        <p>
-            <% out.print("Client IP Address: " + request.getRemoteAddr()); %>
-            <br>
-            <% out.print("Client Host Name: " + request.getRemoteHost()); %>
-        </p>
-        <hr>
     </div>
 
     <div class="about" id="about">
@@ -156,29 +143,6 @@
         </ul>
     </div>
 
-    <div class="contact" id="contact">
-        <h2 class="section-header">Contact Us</h2>
-        <div class="contact-info">
-            <p>
-                <strong>Sree Vidyanikethan Educational Institutions</strong> <br>
-                Vidyanikethan Sree Sainath Nagar, Tirupati, Andhra Pradesh 517102 <br>
-                Phone: +91-8889999555 <br>
-                Email: <a href="mailto:info@vidyanikethan.edu">info@vidyanikethan.edu</a>
-            </p>
-        </div>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <input type="submit" value="Send Message">
-        </form>
-    </div>
-</div>
-
-<footer>
-    <p>Sree Vidyanikethan Educational Institutions - Excellence in Education</p>
-    <p><small>&copy; 2024 by <a href="http://vidyanikethan.edu" style="color: white;">Sree Vidyanikethan Educational Institutions</a></small></p>
-</footer>
-
-</body>
-</html>
+    <div class="news" id="news">
+        <h2 class="section-header">News & Events</h2>
+        <ul
