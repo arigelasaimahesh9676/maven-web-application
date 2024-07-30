@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Sree Vidyanikethan Educational Institutions - Home Page</title>
+<title>Sunny Puppy Institutions - Home Page</title>
 <style>
     body {
         font-family: Arial, sans-serif;
