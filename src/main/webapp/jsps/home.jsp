@@ -172,9 +172,11 @@
 
     <div class="gallery" id="gallery">
         <h2 class="section-header">Gallery</h2>
-        <img src="https://via.placeholder.com/800x400" alt="Campus Image 1">
-        <img src="https://via.placeholder.com/800x400" alt="Campus Image 2">
-        <img src="https://via.placeholder.com/800x400" alt="Campus Image 3">
+        <img src="https://via.placeholder.com/800x400?text=Campus+View+1" alt="Campus Image 1">
+        <img src="https://via.placeholder.com/800x400?text=Campus+View+2" alt="Campus Image 2">
+        <img src="https://via.placeholder.com/800x400?text=Campus+View+3" alt="Campus Image 3">
+        <img src="https://via.placeholder.com/800x400?text=Campus+View+4" alt="Campus Image 4">
+        <img src="https://via.placeholder.com/800x400?text=Campus+View+5" alt="Campus Image 5">
     </div>
 
     <div class="achievements" id="achievements">
