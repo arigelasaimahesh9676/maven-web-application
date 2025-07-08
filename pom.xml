@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mahesh Releases Nexus Repository</name>
-	      <url>http://13.232.148.35:8081/repository/amazon-release/</url>
+	      <name>Abrar Releases Nexus Repository</name>
+	      <url>http://43.205.178.76:8081/repository/abrar-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mahesh Snapshot Nexus Repository </name>
-	      <url>http://13.232.148.35:8081/repository/amazon-snapshot/</url>
+	      <name>Abrar Snapshot Nexus Repository </name>
+	      <url>http://43.205.178.76:8081/repository/abrar-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
