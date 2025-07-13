@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Abrar Releases Nexus Repository</name>
-	      <url>http://43.205.178.76:8081/repository/abrar-release/</url>
+	      <name>Aqib Releases Nexus Repository</name>
+	      <url>http://13.126.225.252:8081/repository/aqib-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Abrar Snapshot Nexus Repository </name>
-	      <url>http://43.205.178.76:8081/repository/abrar-snapshot/</url>
+	      <name>Aqib Snapshot Nexus Repository </name>
+	      <url>http://13.126.225.252:8081/repository/aqib-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
